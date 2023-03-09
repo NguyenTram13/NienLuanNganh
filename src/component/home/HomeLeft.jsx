@@ -3,7 +3,7 @@ import PeopleIcon from "@mui/icons-material/People";
 import { NavLink } from "react-router-dom";
 const HomeLeft = () => {
   return (
-    <div className="w-[30wh]">
+    <div className="w-[30wh] shadow-lg">
       <div className=" flex items-center g-x-3 p-3 hover:bg-gray-200 cursor-pointer w-full rounded-lg transition-all">
         <span className="w-[50px] rounded-lg ">
           <img
