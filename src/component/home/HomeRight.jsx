@@ -25,7 +25,7 @@ const StyledToolbar = styled(Toolbar)(({ theme }) => ({
 }));
 const HomeRight = () => {
   return (
-    <div className="w-[30wh]">
+    <div className="w-[30wh] shadow-lg">
       <hr className="font-bold text-xl" />
       <div className="w-full p-2">
         <div className=" flex justify-between items-center">
@@ -46,19 +46,19 @@ const HomeRight = () => {
             <div className="py-2">
               <h4 className="text-l ">Nguyễn banhs us</h4>
               <div className="flex justify-between items-center gap-x-10 ">
-                <span className="relative w-[30px] rounded-lg ">
+                <span className="relative w-[20px] rounded-lg ">
                   <img
                     className="object-cover rounded-full "
                     src="https://scontent.fvca1-3.fna.fbcdn.net/v/t39.30808-6/326378473_3474461409546435_4064036737346974090_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=_J71lVUGtbAAX9Rd1GM&_nc_ht=scontent.fvca1-3.fna&oh=00_AfCC1LOIOohl2K3E6cIgfJdnPU8Wg9hYLjuk2wiXw1jQDw&oe=640B1F58"
                     alt=""
                   />
-                  <span className="absolute top-0 left-3 w-[30px] rounded-lg ">
+                  <span className="absolute top-0 left-3 w-[20px] rounded-lg ">
                     <img
                       className="object-cover rounded-full "
                       src="https://scontent.fvca1-3.fna.fbcdn.net/v/t39.30808-6/326378473_3474461409546435_4064036737346974090_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=_J71lVUGtbAAX9Rd1GM&_nc_ht=scontent.fvca1-3.fna&oh=00_AfCC1LOIOohl2K3E6cIgfJdnPU8Wg9hYLjuk2wiXw1jQDw&oe=640B1F58"
                       alt=""
                     />
-                    <span className="absolute top-0 left-3 w-[30px] rounded-lg ">
+                    <span className="absolute top-0 left-3 w-[20px] rounded-lg ">
                       <img
                         className="object-cover rounded-full "
                         src="https://scontent.fvca1-3.fna.fbcdn.net/v/t39.30808-6/326378473_3474461409546435_4064036737346974090_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=_J71lVUGtbAAX9Rd1GM&_nc_ht=scontent.fvca1-3.fna&oh=00_AfCC1LOIOohl2K3E6cIgfJdnPU8Wg9hYLjuk2wiXw1jQDw&oe=640B1F58"
